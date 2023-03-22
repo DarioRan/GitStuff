@@ -1,0 +1,14 @@
+# COMMIT TEMPLATE
+# Si cerca di non superare i 70 caratteri: ###END:#
+
+#COMMIT MESSAGE
+
+
+
+# I commit message devono rispettare la seguente struttura:
+#	( fix | feat | db | ref ): Messaggio
+
+# Per message-commit bisogna mantenere uno stile
+# imperativo e coincisio, si specifica il COSA non il COME
+#
+# Co-authored-by: DarioRan 
