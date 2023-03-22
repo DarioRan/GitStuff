@@ -1,0 +1,14 @@
+#!/bin/bash
+# AUTHOR: Dario Ranieri
+
+valid_commit_msg_regex="^(fix|feat|db|ref)+:[a-zA-Z ]{2,50}$"
+
+message="ERRORE. Il commit message deve rispettare il template indicato; (fix|feat|db|ref): message"
+
+if [[ ! $(cat $1) =~ $valid_commit_msg_regex ]]
+then
+    echo "$message"
+    exit 1
+fi
+
+exit 0
